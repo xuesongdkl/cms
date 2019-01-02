@@ -56,5 +56,8 @@ class IndexController extends Controller
         ];
         return view('index.index',$data);
     }
+    public function test(){
+        echo __METHOD__;
+    }
 }
 ;
